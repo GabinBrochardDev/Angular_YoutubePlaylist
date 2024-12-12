@@ -1,1 +1,11 @@
-<p>search works!</p>
+<div>
+
+    <h2 class="text-lg font-bold">Recherche vidéo youtube</h2>
+    
+    <!-- Formulaire de recherche -->
+    <form (ngSubmit)="searchVideo()">
+        <input type="text" placeholder="Rechercher une vidéo" [(ngModel)]="recherche" name="recherche">
+        <button type="submit">Rechercher</button>
+    </form>
+
+</div>
